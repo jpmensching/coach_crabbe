@@ -1,6 +1,4 @@
-ionic-angular-cordova-seed
+Coach Crabbe
 ==========================
 
-The perfect starting point for an Ionic project.
-
-- [Ionic Tutorials](http://ionicframework.com/tutorials/)
+An Android app for disgruntled soccer coaches to generate workouts. Made with Ionic Framework.
