@@ -1,0 +1,21 @@
+<ion-view title="'Workout'">
+  <ion-content has-header="true" padding="true">
+    <div>Your generated workout: </div>
+      <h3 style="text-align: center">Suicides</h3>
+      <div class="card">
+        <div class="item item-text-wrap">
+          <i class="icon ion-flag"></i>  {{cones}} cones
+        </div>
+      </div>
+      <div class="card" data-ng-if="uphill">
+        <div class="item item-text-wrap">
+          <i class="icon ion-android-arrow-up-right"></i>  Uphill
+        </div>
+      </div>
+      <div class="card" data-ng-if="backwards">
+        <div class="item item-text-wrap">
+          <i class="icon ion-arrow-left-c"></i>  Backwards
+        </div>
+      </div>
+  </ion-content>
+</ion-view>
