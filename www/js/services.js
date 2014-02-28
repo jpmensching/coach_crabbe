@@ -1,7 +1,7 @@
 angular.module('CoachCrabbe.services', [])
 
 /**
- * A simple example service that returns some data.
+ * Stores constants.
  */
 .factory('Constants', function() {
   return {
